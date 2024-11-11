@@ -1,0 +1,39 @@
+commit 3d96fa3d23f77af097e54d8cb9bda54a420c6b02
+Author: Sadegh Jafari <sadeghji1998@gmail.com>
+Date:   Mon Nov 11 23:58:51 2024 +0330
+
+    Modifying the last commit with the amend command
+
+diff --git a/Trainee_Task_Git_GitHub_SadeghJi/Categories.cs b/Trainee_Task_Git_GitHub_SadeghJi/Categories.cs
+new file mode 100644
+index 0000000..3db6a52
+--- /dev/null
++++ b/Trainee_Task_Git_GitHub_SadeghJi/Categories.cs
+@@ -0,0 +1,15 @@
++﻿using System;
++using System.Collections.Generic;
++using System.Linq;
++using System.Text;
++using System.Threading.Tasks;
++
++namespace Trainee_Task_Git_GitHub_SadeghJi
++{
++     class Categories
++    {
++
++
++
++    }
++}
+diff --git a/Trainee_Task_Git_GitHub_SadeghJi/Trainee_Task_Git_GitHub_SadeghJi.csproj b/Trainee_Task_Git_GitHub_SadeghJi/Trainee_Task_Git_GitHub_SadeghJi.csproj
+index 024f8e6..1e41ebc 100644
+--- a/Trainee_Task_Git_GitHub_SadeghJi/Trainee_Task_Git_GitHub_SadeghJi.csproj
++++ b/Trainee_Task_Git_GitHub_SadeghJi/Trainee_Task_Git_GitHub_SadeghJi.csproj
+@@ -43,6 +43,7 @@
+     <Reference Include="System.Xml" />
+   </ItemGroup>
+   <ItemGroup>
++    <Compile Include="Categories.cs" />
+     <Compile Include="Product.cs" />
+     <Compile Include="Program.cs" />
+     <Compile Include="Properties\AssemblyInfo.cs" />
