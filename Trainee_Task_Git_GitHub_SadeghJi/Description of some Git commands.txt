@@ -1,0 +1,12 @@
+﻿Description of some Git commands:
+1. git diff: view the changes made with the git diff command
+2. gitignore: not considering some files in Git with gitignore
+3. git log: view records of changes or commits with the git log command
+4. Git shortlog: Short description of changes with the Git shortlog command
+5. Blame: Finding the saboteur
+6. Git Restore: discard changes
+7. Git Clean: cleaning untracked files
+8. git revert: reverting the change of a Commit
+9. git revert: occurrence of interference and its resolution
+10. Git Reset: Full return to the past
+11. bisect: finding the problematic commit
