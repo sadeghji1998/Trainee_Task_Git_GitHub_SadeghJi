@@ -1,0 +1,2 @@
+﻿Using the shortcut command with the following command:
+git config --global alias.st status
