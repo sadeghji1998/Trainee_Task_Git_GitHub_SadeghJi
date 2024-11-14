@@ -20,6 +20,21 @@ namespace Trainee_Task_Git_GitHub_SadeghJi
             };
 
 
+            //تمرین 1
+            //Category1 بازیابی تمام محصولات  
+            // استفاده شده است GroupBy و Where از دستور  Categories.Category1 برای دریافت محصولات  
+
+            var list = products.Where(t => t.Category == Categories.Category1).GroupBy(t => t.Category == Categories.Category1);
+            Console.WriteLine("retrieve products under category1:\n");
+            foreach (var Group in list)
+            {
+                foreach (var item in Group)
+                {
+                    Console.WriteLine(item);
+                    Console.WriteLine();
+                }
+            }
+
         }
     }
 }
