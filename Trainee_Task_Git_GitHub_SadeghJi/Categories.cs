@@ -9,7 +9,7 @@ namespace Trainee_Task_Git_GitHub_SadeghJi
      class Categories
     {
 
-
+        public int key { get; set; }
 
     }
 }
