@@ -16,3 +16,7 @@ Photo of the course :
   "age": 26
 }
 ```
+
+Create and use Badges and work with the Shields tool :
+
+![shields](https://img.shields.io/badge/shields-you_like-gold)
